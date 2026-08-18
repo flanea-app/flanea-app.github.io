@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.com.flanea.trevoux",
+        "paths": ["/lieux/lieu/*"]
+      }
+    ]
+  }
+}

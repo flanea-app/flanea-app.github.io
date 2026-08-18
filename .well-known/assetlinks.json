@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.flanea.trevoux",
+      "sha256_cert_fingerprints": [
+        "70:75:C3:2F:60:E6:EF:19:27:9F:DB:60:99:FB:BC:90:5C:E7:E9:87:1C:A9:49:87:E7:1B:2E:E1:EC:91:BC:AA"
+      ]
+    }
+  }
+]
