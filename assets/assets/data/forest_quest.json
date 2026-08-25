@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "qrCode": "TREVOUX_CHENE_001",
+    "title": "🌳 Le Chêne du Sage",
+    "description": "Bienvenue, jeune apprenti chevalier ! Ce chêne centenaire a vu naître et grandir le château de Trévoux. Ses racines profondes gardent les secrets de notre histoire. Les anciens disaient qu'il fallait observer attentivement cet arbre pour comprendre les mystères de la forêt.",
+    "audioFile": "chene_intro.mp3",
+    "type": "quiz",
+    "question": "Combien de branches principales ce chêne majestueux possède-t-il ?",
+    "choices": [
+      "Entre 3 et 4 branches",
+      "Entre 5 et 7 branches",
+      "Entre 8 et 10 branches",
+      "Plus de 10 branches"
+    ],
+    "correctAnswer": 1,
+    "badge": "badge_sage",
+    "hint": "Regardez bien vers le sommet de l'arbre, comptez seulement les plus grosses branches qui partent du tronc principal."
+  },
+  {
+    "id": 2,
+    "qrCode": "TREVOUX_PIERRE_002",
+    "title": "👁️ La Pierre du Guetteur",
+    "description": "Cette ancienne pierre servait de poste d'observation aux gardes du château de Trévoux. D'ici, ils pouvaient surveiller la Saône et les chemins qui menaient à la forteresse. Les chevaliers avaient leurs propres codes et symboles pour se reconnaître.",
+    "audioFile": "pierre_guetteur.mp3",
+    "type": "quiz",
+    "question": "Que gravaient principalement les chevaliers sur leurs boucliers pour se distinguer au combat ?",
+    "choices": [
+      "Des épées croisées",
+      "Leurs blasons familiaux",
+      "Des tours de château",
+      "Des fleurs de lys royales"
+    ],
+    "correctAnswer": 1,
+    "badge": "badge_guetteur",
+    "hint": "Chaque famille noble avait ses propres couleurs et symboles héréditaires pour se faire reconnaître."
+  },
+  {
+    "id": 3,
+    "qrCode": "TREVOUX_ARBRE_003",
+    "title": "🛡️ L'Arbre aux Écussons",
+    "description": "Les seigneurs de Trévoux, comme tous les nobles, possédaient leurs propres armoiries. Ces symboles colorés ornaient leurs boucliers, leurs bannières et les murs de leur château. Chaque couleur avait une signification particulière dans l'art héraldique.",
+    "audioFile": "arbre_ecussons.mp3",
+    "type": "quiz",
+    "question": "Quelles étaient les couleurs traditionnelles les plus nobles utilisées dans les blasons médiévaux ?",
+    "choices": [
+      "Rouge et or (or jaune)",
+      "Bleu et argent (blanc)",
+      "Vert et violet",
+      "Noir et blanc uniquement"
+    ],
+    "correctAnswer": 0,
+    "badge": "badge_ecusson",
+    "hint": "Les métaux précieux (or et argent) étaient considérés comme les couleurs les plus nobles en héraldique."
+  },
+  {
+    "id": 4,
+    "qrCode": "TREVOUX_BOSQUET_004",
+    "title": "🌿 Le Bosquet des Herboristes",
+    "description": "Dans ce bosquet tranquille, les moines du château cultivaient un jardin de simples, ces plantes médicinales si précieuses au Moyen Âge. Leur savoir en botanique était immense et ils soignaient les habitants du château avec ces remèdes naturels.",
+    "audioFile": "bosquet_herboristes.mp3",
+    "type": "quiz",
+    "question": "Quelle plante était particulièrement réputée au Moyen Âge pour soigner les maux de tête et améliorer la mémoire ?",
+    "choices": [
+      "La menthe fraîche",
+      "Le thym sauvage",
+      "La sauge officinale",
+      "Toutes ces plantes"
+    ],
+    "correctAnswer": 3,
+    "badge": "badge_herboriste",
+    "hint": "Les moines connaissaient bien les vertus de nombreuses plantes aromatiques de nos régions."
+  },
+  {
+    "id": 5,
+    "qrCode": "TREVOUX_CLAIRIERE_005",
+    "title": "💎 La Clairière du Trésor",
+    "description": "Félicitations, brave chevalier ! Vous avez découvert la clairière secrète des gardiens de la forêt de Trévoux. C'est ici que se termine votre quête, mais rappelez-vous que la véritable aventure ne fait que commencer quand on comprend l'histoire de notre patrimoine.",
+    "audioFile": "clairiere_tresor.mp3",
+    "type": "quiz",
+    "question": "Selon la sagesse des anciens chevaliers, quel est le plus grand trésor qu'un héros peut découvrir ?",
+    "choices": [
+      "Un coffre rempli d'or",
+      "Une épée magique",
+      "La connaissance et la sagesse",
+      "Un parchemin aux secrets"
+    ],
+    "correctAnswer": 2,
+    "badge": "badge_tresor",
+    "hint": "Les vrais héros savent que la richesse la plus précieuse ne se mesure pas en pièces d'or."
+  }
+]

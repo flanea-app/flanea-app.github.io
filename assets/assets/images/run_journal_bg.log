@@ -1,0 +1,237 @@
+Changing current working directory to: C:\Users\Alexandre\trevouxapp
+Launching lib\main.dart on Redmi Note 9S in debug mode...
+Running Gradle task 'assembleDebug'...                          
+WARNING: Your app uses the following plugins that apply Kotlin Gradle Plugin (KGP): cloud_functions, flutter_foreground_task, in_app_review, mobile_scanner
+Future versions of Flutter will fail to build if your app uses plugins that apply KGP.
+
+Please check the changelogs of these plugins and upgrade to a version that supports Built-in Kotlin.
+If no such version exists, report the issue to the plugin. If necessary, here is a guide on filing 
+an issue against a plugin: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-app-developers#report-incompatible-kotlin-gradle-plugin-usage-to-plugin-authors
+
+If you are a plugin author, please migrate your plugin to Built-in Kotlin using this guide: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-plugin-authors
+Running Gradle task 'assembleDebug'...                             21,2s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing ..\..\build\app\outputs\flutter-apk\app-debug.apk...        13,1s
+I/FlutterActivityAndFragmentDelegate(30884): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(30884): Beginning load of flutter...
+D/FlutterJNI(30884): flutter (null) was loaded normally!
+I/flutter (30884): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (30884): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterGeolocator(30884): Attaching Geolocator to activity
+D/FlutterRenderer(30884): Width is zero. 0,0
+D/FlutterRenderer(30884): Width is zero. 0,0
+D/FlutterRenderer(30884): Width is zero. 0,0
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+Syncing files to device Redmi Note 9S...                        
+W/Looper  (30884): PerfMonitor longMsg : seq=7 plan=00:04:12.415 late=1623ms wall=1057ms running=48ms runnable=2ms io=8ms h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver procState=2
+W/Looper  (30884): PerfMonitor doFrame : time=1057ms vsyncFrame=0 latency=1623ms procState=2 historyMsgCount=4 (msgIndex=1 wall=799ms seq=3 running=640ms runnable=77ms io=33ms late=53ms h=android.app.ActivityThread$H w=110) (msgIndex=2 wall=1428ms seq=4 running=644ms runnable=25ms io=59ms late=815ms h=android.app.ActivityThread$H w=159)
+D/FlutterGeolocator(30884): Creating service.
+D/FlutterGeolocator(30884): Binding to location service.
+I/Choreographer(30884): Skipped 63 frames!  The application may be doing too much work on its main thread.
+W/Looper  (30884): PerfMonitor doFrame : time=18ms vsyncFrame=0 latency=1057ms procState=2 historyMsgCount=11 (msgIndex=1 wall=1057ms seq=7 running=48ms runnable=2ms io=8ms late=1623ms h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver)
+D/FlutterGeolocator(30884): Geolocator foreground service connected
+D/FlutterGeolocator(30884): Initializing Geolocator services
+D/FlutterGeolocator(30884): Flutter engine connected. Connected engine count 1
+Syncing files to device Redmi Note 9S...                           281ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Redmi Note 9S is available at: http://127.0.0.1:57314/63cvcXX8vT8=/
+The Flutter DevTools debugger and profiler on Redmi Note 9S is available at: http://127.0.0.1:57314/63cvcXX8vT8=/devtools/?uri=ws://127.0.0.1:57314/63cvcXX8vT8=/ws
+I/Choreographer(30884): Skipped 77 frames!  The application may be doing too much work on its main thread.
+W/Looper  (30884): PerfMonitor doFrame : time=11ms vsyncFrame=0 latency=1294ms procState=2 historyMsgCount=1
+I/mple.trevouxap(30884): ProcessProfilingInfo new_methods=3902 is saved saved_to_disk=1 resolve_classes_delay=8000
+I/TetheringManager(30884): registerTetheringEventCallback:com.example.trevouxapp
+W/DynamiteModule(30884): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule(30884): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller(30884): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+W/Looper  (30884): PerfMonitor doFrame : time=57ms vsyncFrame=0 latency=384ms procState=2 historyMsgCount=14
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/VMStack;->getStackClass2()Ljava/lang/Class; (greylist, reflection, allowed)
+E/GoogleApiManager(30884): Failed to get service from broker. 
+E/GoogleApiManager(30884): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager(30884): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+E/GoogleApiManager(30884): 	at android.os.Parcel.createException(Parcel.java:2360)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2343)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2285)
+E/GoogleApiManager(30884): 	at bhne.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):36)
+E/GoogleApiManager(30884): 	at bhkx.y(:com.google.android.gms@263032022@26.30.32 (150400-956658866):151)
+E/GoogleApiManager(30884): 	at bgqt.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):42)
+E/GoogleApiManager(30884): 	at android.os.Handler.handleCallback(Handler.java:938)
+E/GoogleApiManager(30884): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/GoogleApiManager(30884): 	at czoh.lQ(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+E/GoogleApiManager(30884): 	at czoh.dispatchMessage(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+E/GoogleApiManager(30884): 	at android.os.Looper.loop(Looper.java:236)
+E/GoogleApiManager(30884): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+W/GoogleApiManager(30884): Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagRegistrar(30884): Failed to register com.google.android.gms.providerinstaller#com.example.trevouxapp
+W/FlagRegistrar(30884): fncf: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagRegistrar(30884): 	at fnch.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):13)
+W/FlagRegistrar(30884): 	at gkup.d(:com.google.android.gms@263032022@26.30.32 (150400-956658866):3)
+W/FlagRegistrar(30884): 	at gkur.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):139)
+W/FlagRegistrar(30884): 	at gkxc.execute(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagRegistrar(30884): 	at gkuz.f(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagRegistrar(30884): 	at gkuz.m(:com.google.android.gms@263032022@26.30.32 (150400-956658866):101)
+W/FlagRegistrar(30884): 	at gkuz.q(:com.google.android.gms@263032022@26.30.32 (150400-956658866):16)
+W/FlagRegistrar(30884): 	at fgqw.hz(:com.google.android.gms@263032022@26.30.32 (150400-956658866):35)
+W/FlagRegistrar(30884): 	at eutz.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):12)
+W/FlagRegistrar(30884): 	at gkxc.execute(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagRegistrar(30884): 	at euua.b(:com.google.android.gms@263032022@26.30.32 (150400-956658866):18)
+W/FlagRegistrar(30884): 	at euup.b(:com.google.android.gms@263032022@26.30.32 (150400-956658866):34)
+W/FlagRegistrar(30884): 	at euur.c(:com.google.android.gms@263032022@26.30.32 (150400-956658866):23)
+W/FlagRegistrar(30884): 	at bgob.e(:com.google.android.gms@263032022@26.30.32 (150400-956658866):9)
+W/FlagRegistrar(30884): 	at bgqr.r(:com.google.android.gms@263032022@26.30.32 (150400-956658866):48)
+W/FlagRegistrar(30884): 	at bgqr.d(:com.google.android.gms@263032022@26.30.32 (150400-956658866):10)
+W/FlagRegistrar(30884): 	at bgqr.g(:com.google.android.gms@263032022@26.30.32 (150400-956658866):191)
+W/FlagRegistrar(30884): 	at bgqt.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):74)
+W/FlagRegistrar(30884): 	at android.os.Handler.handleCallback(Handler.java:938)
+W/FlagRegistrar(30884): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+W/FlagRegistrar(30884): 	at czoh.lQ(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagRegistrar(30884): 	at czoh.dispatchMessage(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+W/FlagRegistrar(30884): 	at android.os.Looper.loop(Looper.java:236)
+W/FlagRegistrar(30884): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+W/FlagRegistrar(30884): Caused by: bgmg: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagRegistrar(30884): 	at bhkj.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):15)
+W/FlagRegistrar(30884): 	at bgoe.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagRegistrar(30884): 	at bgob.e(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+W/FlagRegistrar(30884): 	... 10 more
+E/GoogleApiManager(30884): Failed to get service from broker. 
+E/GoogleApiManager(30884): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager(30884): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+E/GoogleApiManager(30884): 	at android.os.Parcel.createException(Parcel.java:2360)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2343)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2285)
+E/GoogleApiManager(30884): 	at bhne.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):36)
+E/GoogleApiManager(30884): 	at bhkx.y(:com.google.android.gms@263032022@26.30.32 (150400-956658866):151)
+E/GoogleApiManager(30884): 	at bgqt.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):42)
+E/GoogleApiManager(30884): 	at android.os.Handler.handleCallback(Handler.java:938)
+E/GoogleApiManager(30884): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/GoogleApiManager(30884): 	at czoh.lQ(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+E/GoogleApiManager(30884): 	at czoh.dispatchMessage(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+E/GoogleApiManager(30884): 	at android.os.Looper.loop(Looper.java:236)
+E/GoogleApiManager(30884): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+E/GoogleApiManager(30884): Failed to get service from broker. 
+E/GoogleApiManager(30884): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager(30884): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+E/GoogleApiManager(30884): 	at android.os.Parcel.createException(Parcel.java:2360)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2343)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2285)
+E/GoogleApiManager(30884): 	at bhne.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):36)
+E/GoogleApiManager(30884): 	at bhkx.y(:com.google.android.gms@263032022@26.30.32 (150400-956658866):151)
+E/GoogleApiManager(30884): 	at bgqt.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):42)
+E/GoogleApiManager(30884): 	at android.os.Handler.handleCallback(Handler.java:938)
+E/GoogleApiManager(30884): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/GoogleApiManager(30884): 	at czoh.lQ(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+E/GoogleApiManager(30884): 	at czoh.dispatchMessage(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+E/GoogleApiManager(30884): 	at android.os.Looper.loop(Looper.java:236)
+E/GoogleApiManager(30884): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+W/GoogleApiManager(30884): Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore(30884): Unable to update local snapshot for com.google.android.gms.providerinstaller#com.example.trevouxapp, may result in stale flags.
+W/FlagStore(30884): java.util.concurrent.ExecutionException: fncf: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore(30884): 	at gkuz.j(:com.google.android.gms@263032022@26.30.32 (150400-956658866):21)
+W/FlagStore(30884): 	at gkvi.t(:com.google.android.gms@263032022@26.30.32 (150400-956658866):24)
+W/FlagStore(30884): 	at gkuz.get(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at gkzr.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):2)
+W/FlagStore(30884): 	at gkyh.s(:com.google.android.gms@263032022@26.30.32 (150400-956658866):10)
+W/FlagStore(30884): 	at fnha.d(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at fnge.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+W/FlagStore(30884): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+W/FlagStore(30884): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+W/FlagStore(30884): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+W/FlagStore(30884): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+W/FlagStore(30884): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+W/FlagStore(30884): 	at java.lang.Thread.run(Thread.java:923)
+W/FlagStore(30884): Caused by: fncf: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore(30884): 	at fnch.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):13)
+W/FlagStore(30884): 	at gkup.d(:com.google.android.gms@263032022@26.30.32 (150400-956658866):3)
+W/FlagStore(30884): 	at gkur.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):139)
+W/FlagStore(30884): 	at gkxc.execute(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at gkuz.f(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at gkuz.m(:com.google.android.gms@263032022@26.30.32 (150400-956658866):101)
+W/FlagStore(30884): 	at gkuz.q(:com.google.android.gms@263032022@26.30.32 (150400-956658866):16)
+W/FlagStore(30884): 	at fgqw.hz(:com.google.android.gms@263032022@26.30.32 (150400-956658866):35)
+W/FlagStore(30884): 	at eutz.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):12)
+W/FlagStore(30884): 	at gkxc.execute(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at euua.b(:com.google.android.gms@263032022@26.30.32 (150400-956658866):18)
+W/FlagStore(30884): 	at euup.b(:com.google.android.gms@263032022@26.30.32 (150400-956658866):34)
+W/FlagStore(30884): 	at euuw.B(:com.google.android.gms@263032022@26.30.32 (150400-956658866):17)
+W/FlagStore(30884): 	at eutr.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):60)
+W/FlagStore(30884): 	at gkxc.execute(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at euts.b(:com.google.android.gms@263032022@26.30.32 (150400-956658866):8)
+W/FlagStore(30884): 	at euup.b(:com.google.android.gms@263032022@26.30.32 (150400-956658866):34)
+W/FlagStore(30884): 	at euur.c(:com.google.android.gms@263032022@26.30.32 (150400-956658866):23)
+W/FlagStore(30884): 	at bgob.e(:com.google.android.gms@263032022@26.30.32 (150400-956658866):9)
+W/FlagStore(30884): 	at bgqr.r(:com.google.android.gms@263032022@26.30.32 (150400-956658866):48)
+W/FlagStore(30884): 	at bgqr.d(:com.google.android.gms@263032022@26.30.32 (150400-956658866):10)
+W/FlagStore(30884): 	at bgqr.g(:com.google.android.gms@263032022@26.30.32 (150400-956658866):191)
+W/FlagStore(30884): 	at bgqt.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):74)
+W/FlagStore(30884): 	at android.os.Handler.handleCallback(Handler.java:938)
+W/FlagStore(30884): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+W/FlagStore(30884): 	at czoh.lQ(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at czoh.dispatchMessage(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+W/FlagStore(30884): 	at android.os.Looper.loop(Looper.java:236)
+W/FlagStore(30884): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+W/FlagStore(30884): Caused by: bgmg: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore(30884): 	at bhkj.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):15)
+W/FlagStore(30884): 	at bgoe.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+W/FlagStore(30884): 	at bgob.e(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+W/FlagStore(30884): 	... 10 more
+V/NativeCrypto(30884): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 336 native methods...
+W/mple.trevouxap(30884): Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (greylist, reflection, allowed)
+I/ProviderInstaller(30884): Installed default security provider GmsCore_OpenSSL
+W/mple.trevouxap(30884): Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (greylist, reflection, allowed)
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, linking, allowed)
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, linking, allowed)
+W/mple.trevouxap(30884): Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (greylist, reflection, allowed)
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/BlockGuard;->getThreadPolicy()Ldalvik/system/BlockGuard$Policy; (greylist,core-platform-api, linking, allowed)
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/BlockGuard$Policy;->onNetwork()V (greylist, linking, allowed)
+D/ProfileInstaller(30884): Installing profile for com.example.trevouxapp
+E/GoogleApiManager(30884): Failed to get service from broker. 
+E/GoogleApiManager(30884): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager(30884): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+E/GoogleApiManager(30884): 	at android.os.Parcel.createException(Parcel.java:2360)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2343)
+E/GoogleApiManager(30884): 	at android.os.Parcel.readException(Parcel.java:2285)
+E/GoogleApiManager(30884): 	at bhne.a(:com.google.android.gms@263032022@26.30.32 (150400-956658866):36)
+E/GoogleApiManager(30884): 	at bhkx.y(:com.google.android.gms@263032022@26.30.32 (150400-956658866):151)
+E/GoogleApiManager(30884): 	at bgqt.run(:com.google.android.gms@263032022@26.30.32 (150400-956658866):42)
+E/GoogleApiManager(30884): 	at android.os.Handler.handleCallback(Handler.java:938)
+E/GoogleApiManager(30884): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/GoogleApiManager(30884): 	at czoh.lQ(:com.google.android.gms@263032022@26.30.32 (150400-956658866):1)
+E/GoogleApiManager(30884): 	at czoh.dispatchMessage(:com.google.android.gms@263032022@26.30.32 (150400-956658866):5)
+E/GoogleApiManager(30884): 	at android.os.Looper.loop(Looper.java:236)
+E/GoogleApiManager(30884): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+W/GoogleApiManager(30884): Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+I/chatty  (30884): uid=10832(com.example.trevouxapp) identical 1 line
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+V/MediaPlayer(30884): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(30884): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer(30884): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(30884): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer(30884): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(30884): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/Timeline(30884): Timeline: Activity_launch_request time:10272170
+D/FlutterJNI(30884): Sending viewport metrics to the engine.
+D/MediaScannerConnection(30884): Scanned /data/user/0/com.example.trevouxapp/cache/b999276e-66c6-42cf-813a-62cdeb66180a4449037649764018678.jpg to null
+E/FlutterGeolocator(30884): Geolocator position updates started
+D/MIUIInput(30884): [KeyEvent] ViewRootImpl KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x48, repeatCount=0, eventTime=10296803, downTime=10296803, deviceId=-1, source=0x101, displayId=0 }
+D/MIUIInput(30884): [KeyEvent] ViewRootImpl KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x48, repeatCount=0, eventTime=10296869, downTime=10296803, deviceId=-1, source=0x101, displayId=0 }
+E/FlutterGeolocator(30884): Geolocator position updates stopped
+E/FlutterGeolocator(30884): There is still another flutter engine connected, not stopping location service
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/CloseGuard;->close()V (greylist,core-platform-api, linking, allowed)
+W/mple.trevouxap(30884): Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (greylist,core-platform-api, linking, allowed)
+Lost connection to device.
+RUN_EXIT_CODE=0
